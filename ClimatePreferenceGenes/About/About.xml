@@ -19,7 +19,7 @@
   </loadAfter>
 
   <description>
-This mod adds 2 climate preference genes, each of which shift the comfortable temperature range by 15°C. This means that a pawn with hot climate preference will only comfortable in climates that are 31-41°C, instead of the normal 16-26, while cold climate preference will move the range to be 1-11°C. These genes do stack with similar resistances, so hot climate preference can be combined with heat super-tolerant to allow a pawn to live in environments with a temp range of 31-61°C. They can't be combined with genes that would bring their preference closer to standard though, so cold tolerant genes can't be used alongside the hot climate gene.
+This mod adds 4 climate preference genes, each of which shift the comfortable temperature range by 15°C. This means that a pawn with hot climate preference will only comfortable in climates that are 31-41°C, instead of the normal 16-26, while cold climate preference will move the range to be 1-11°C. These genes do stack with similar resistances, so hot climate preference can be combined with heat super-tolerant to allow a pawn to live in environments with a temp range of 31-61°C. They can't be combined with genes that would bring their preference closer to standard though, so cold tolerant genes can't be used alongside the hot climate gene.
 
 [url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
 [url=https://github.com/KonradHeinser/ClimatePreferenceGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
