@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_Cold</defName>
+    <label>cold climate preference</label>
+    <labelShortAdj>freezing</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in colder climates, and may die if they remain in a warmer one for too long.</description>
+    <iconPath>UI/Icons/Genes/Gene_MinTemperatureLargeDecrease</iconPath>
+    <displayOrderInCategory>-2</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>-15</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MaxTemperature</li>
+      <li>SuperTempWeak</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMaxTempBase">
+    <defName>ClimatePreference_Hot</defName>
+    <label>hot climate preference</label>
+    <labelShortAdj>melting</labelShortAdj>
+    <description>Carriers of this gene are only comfortable in warmer climates, and may die if they remain in a colder one for too long.</description>
+    <iconPath>UI/Icons/Genes/Gene_MaxTemperatureLargeIncrease</iconPath>
+    <displayOrderInCategory>-1</displayOrderInCategory>
+    <statOffsets>
+      <ComfyTemperatureMin>15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>cold</symbol></li>
+        <li><symbol>cool</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>MinTemperature</li>
+      <li>SuperTempWeak</li>
+    </exclusionTags>
+  </GeneDef>
+</Defs>
